@@ -40,4 +40,6 @@ header h1 {
 
 .search-form {
   border: 4px solid pink;
+  border-radius: 10px;
+  text-align: center;
 }
