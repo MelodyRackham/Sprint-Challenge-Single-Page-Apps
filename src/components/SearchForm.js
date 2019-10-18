@@ -24,11 +24,8 @@ const SearchForm = () => {
 
   return (
     <section className='search-form'>
-      <h1> Welcome to Mel's Search Bar</h1>
-      <Link to='/CharacterList'>
-        <h2> I love Ricky and Morty </h2>
-      </Link>
-      <h3> I am creating a search bar </h3>
+      <h1> Search Below for your Favorite Character </h1>
+      <Link to='/CharacterList'></Link>
       <form className='search'>
         <input
           type='text'
@@ -53,4 +50,4 @@ const SearchForm = () => {
   );
 };
 
-// export default SearchForm;
+export default SearchForm;
